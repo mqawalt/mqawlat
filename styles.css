@@ -727,16 +727,18 @@ nav {
 }
 
 @media (width < 600px) {
-  .nav__links {
-    display: none;
-  }
-
   .contact__content .form__group {
     gap: 1rem;
   }
 
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width < 1028px) {
+  .nav__links {
+    display: none;
   }
 }
 
